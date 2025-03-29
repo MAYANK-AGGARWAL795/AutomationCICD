@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+
+	<groups>
+		<run>
+
+			<include name="ErrorH" />
+
+		</run>
+
+	</groups>
+
+
+	<test thread-count="5" name="Test 1">
+		<classes>
+			<class name="mayankaggarwal.Test1" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="mayankaggarwal.Test2" />
+
+
+		</classes>
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->

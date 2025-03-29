@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="mayankaggarwal.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="mayankaggarwal.Test2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="close"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- mayankaggarwal.Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
